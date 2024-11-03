@@ -1,0 +1,18 @@
+.hourly{
+    padding-top: 5px;
+    padding-bottom: -5px;
+    text-align: center;
+    padding-inline: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.hourlyweather{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}

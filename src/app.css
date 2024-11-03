@@ -1,0 +1,111 @@
+html, body {
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+     
+}
+.app{
+    position: relative;
+   
+
+    
+ 
+}
+.img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+   
+    
+   
+}
+.img img {
+     width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
+    object-fit: cover;
+}
+.weather-forecast{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.weather-day{
+    padding-top: 5px;
+    text-align: center;
+    padding-inline: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+   
+}
+.weather-day h3{
+    padding: 2px;
+    margin: 2px;
+}
+.weather-day p{
+    padding: 2px;
+    margin: 2px;
+}
+.now{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-inline: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.week{
+  
+    padding: 10px 0px 40px 0px;
+}
+.header{
+    text-align: center;
+    padding-top: 1px;
+}
+.header h1{
+    color: #ffffff;
+}
+.header input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-inline: 15px;
+    color: #ffffff;
+    background:none;
+}
+
+.header button{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background:none;
+    outline: none;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.scroll{
+    overflow: auto;
+    overflow-y: scroll;
+    max-height: 500px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
